@@ -3,6 +3,41 @@
     padding: 0;
 }
 
-.quadrado{
-    border: 1px solid black;
+section{
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 100vw;
+    height: 500px;
+    background-color: grey;
+    border-top: 1px solid black;
 }
+
+.quadrado{
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+/* primeira forma de background */
+
+#q1{
+    background-color: skyblue;
+}
+
+/* segunda forma de background */
+
+#q2{
+    background-image: linear-gradient(to bottom, yellow, red)
+}
+
+/* terceira orma de background */
+
+#q3{
+    background-image: url('imagens-de-backgrounds/pattern001.png');
+}
+
+
+
