@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>modulo 2</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body{
+            background-image: linear-gradient(45deg , #5c5219, #a0982a, #d3c93d);
+            background-attachment: fixed;
+
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+        }
+
+        main{
+            height: 92vh;
+            margin-top: 20px;
+            width: 650px;
+            margin: auto;
+            padding: 10px;
+            text-align: justify;
+        }
+
+        header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #4b4012;
+            height: 8vh;
+        }
+
+        #logo{
+            display: inline-block;
+            color: #bdbdbd;
+        }
+
+        #ancora:hover{
+            color: #686767;
+        }
+
+        .nav{
+            font-size: 18px;
+        }
+
+        #ancora{
+            margin: 7px;
+            color: #bdbdbd;
+        }
+
+        h1{
+            margin: 8px;
+            text-align: center;
+        }
+
+        h2{
+            margin: 5px 0px 15px 0px;
+            text-align: center;
+        }
+
+        p{
+            margin: 5px 0px 15px 0px;
+        }
+
+        .box{
+            padding: 10px;
+            width: 650px;
+            border-radius: 10px;
+            margin: auto;
+            background-color: #4b4012;
+            color: #bdbdbd;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h2 id="logo">Estudo de Html/css</h2>
+        <nav class="nav">
+                <a id="ancora" href="#">login</a>
+                <a id="ancora" href="#">menu</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2 style="background-color: #1E0554; color: white;">Exemplo de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio pariatur incidunt voluptates expedita esse nulla assumenda id velit, accusantium est voluptas obcaecati ullam! Magni voluptates officiis nisi doloremque quis odit!</p>
+
+        <h2 style="background-color: #1E0554; color: #ffffff;">Exemplo de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum totam, nisi fugiat nostrum atque libero deleniti magni sint non quod repellat, repellendus aspernatur qui praesentium aperiam iste tempore ullam maxime!</p>
+
+        <h2 style="background-color: rgb(30, 5, 84); color: rgb(255, 255, 255);">Exemplo de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, quis sit. Voluptatibus cum distinctio, ipsum provident  reiciendis assumenda perspiciatis ullam, velit laborum et mollitia rerum ut cumque totam fuga impedit!</p>
+
+        <h2 style="background-color: hsl(259, 89%, 17%); color: hsl(0, 0%, 100%);">Exemplo de cores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, quis sit. Voluptatibus cum distinctio, ipsum provident  reiciendis assumenda perspiciatis ullam, velit laborum et mollitia rerum ut cumque totam fuga impedit!</p>
+
+        <h1>harmonia de cores</h1>
+
+        <div class="box">
+
+            <h3>cores primárias: amarelo, vermelho e azul</h3>
+            <h3>cores secundárias: verde, violeta e laranja</h3>
+            <h3>cores complementares: são cores que tem mais contraste entre si. ex: azul e laranja, violeta e amarelo.</h3>
+
+            <h3>cores análogas: cores similares. ex: violeta e azul-arroxeado.</h3>
+            <h3>cores análogas relacionadas: ao invés de escolher uma cor de muito contraste para ser complementar, escolher uma análoga da complementar</h3>
+
+            <h3>cores intercaladas: intercalando as cores pela paleta, ex: amarelo, laranja, vermelho</h3>
+            <h3>cores triádicas: intercalando de 3 em 3</h3>
+            <h3>cores em quadrado: intercalando de 2 em 2</h3>
+            <h3>cores tetrádicas: intercalam-se de 4 em 4</h3>
+            <h3>monocromia: utiliza uma unica cor, mexendo com a saturação e a luminosidade</h3>
+        </div>
+
+        <h1>Tipografia</h1>
+
+        <div class="box">
+            <p>serifa é "traços" de estilos na letra, localizados no pé da letra</p>
+            <p>fonts monoespaçadas: as letras contém as mesmas larguras e alturas</p>
+            <p>handwriting: escrita a mão</p>
+            <p>display: categoria comemorativa</p>
+        </div>
+
+        <h2>font-size(css)</h2>
+        <p> existem dois tipos de medidas para essa tag: as medidas absolutas e as relativas.</p>
+
+        <div class="box">
+
+            <h3 style="text-align: center;">absolutas</h3>
+
+            <p>são elas: o cm, mm, in(polegadas), px, pt, pc.</p>
+
+            <h3 style="text-align: center;">relativas</h3>
+
+            <p>são elas: em(medida reladiva ao tamanho atual da fonte),  ex(medida relativa a altura x de uma fonte),  rem(relativa a fonte definida no body),  vw(porcentagem da largura da tela),  vh(porcentagem da altura da tela),  %(porcentagem).</p>
+            <p>obs: 1em = 16px.  Recomendação oficial da "W3C" é utilizar o px como medida absoluta e o em como medida relativa</p>
+
+        </div>
+
+        <h1>Peso, estilo e shorthand</h1>
+
+        <div class="box">
+            <p>Peso: utiliza-se a tag: "font-weight", (light, normal, bold and bolder). serve para colocar textos em negrito</p>
+
+            <p>estilo: utiliza-se a tag: "font-style: italic;", serve pra colocar textos em itálico </p>
+
+            <p>sublinhar: utiliza-se a tag: "text-decoration: underline;"</p>
+
+            <h3>shorthand (simplificação)</h3>
+            <p>utiliza-se a tag: "font" a ordem é: style, weight, size, font-family</p>
+        </div>
+
+        <h1>alinhamento de textos</h1>
+        <h2>tipos de alinhamento</h2>
+
+        <div class="box">
+            <p>utilizando a tag "text-align" conseguimos alinhar o texto da maneira que quisermos. left, right, center e justify</p>
+
+            <p>podemos utilizar o "text-indent" para começar um texto, igual uma redação. (colocar uma medida absoluta para afastar da borda)</p>
+        </div>
+
+        <h1>usando um identificador(ID) no html</h1>
+        <p> ja é sabido. o mesmo para o class</p>
+
+        <h1>pseudo-classes</h1>
+
+        <div class="box">
+            <p style="text-indent: 20px;">o que é?: uma pseudo-classe é representada por 2 pontos " : ", ela sempre está relacionada a um elemento ou a uma classe. as pseudo-classes estão relacionadas ao estado do elemento.</p>
+            <p>hover: ações com a passagem do mouse em cima do elemento</p>
+
+            <p>active: ações com o click em cima do elemento</p>
+
+            <p>visited: para links ja acessados</p>
+        </div>
+
+        <h1>pseudo-elementos</h1>
+
+        <div class="box">
+            <p>é representado por 2 vezes os dois pontos " :: " </p>
+        </div>
+
+        <h1>boxes</h1>
+
+        <p>anatomia das caixas: chamamos de padding a distância do elemento até a borda</p>
+        <p>chamamos de margin a distância da borda até uma area externa imaginária</p>
+
+        <div class="box">
+            <h2>box-level</h2>
+            <p>o box-level é do tipo que ocupa 100% do viewport width e pula uma linha para se posicionar. Exemplo de box-level: div, h1</p>
+
+            <h2>inline-level</h2>
+            <p>O inline-level é do tipo que não ocupa 100% do viewport width e não pula uma linha para se posicionar. Exemplo de inline-level: span, a, small, label, button</p>
+
+            <h2>displays conhecidos</h2>
+            <p>display-block: transforma em box-level</p>
+            <p>display-inline: transforma em inline-level</p>
+            <p>display-inline-block: fica inline-level com caracteristicas de bloco</p>
+            <p>display-flex: indica que está sendo utilizado o flexbox</p>
+
+            <h2>grouping tags</h2>
+            <p style="text-indent: 20px;">é totalmente recomendado o uso dessas tags para representar os elementos no seu site.</p>
+            <p>header = cabeçalho</p>
+            <p>main = conteúdo principal do site</p>
+            <p>footer = rodapé do site</p>
+            <p>section = sessoes criadas dentro da tag main</p>
+            <p>article = artigos de conteúdo</p>
+            <p>aside = é uma tag relativa ao container.</p>
+        </div>
+
+    </main>
+
+</body>
+</html>

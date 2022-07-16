@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(50, 59, 70);
+    padding: 100px 10px 10px 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+section .btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+section .btns a{
+    color: white;
+}
+
+.btns button {
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    letter-spacing: 0.2rem;
+}
+
+.second{
+    padding-top: 100px;
+}
+
+
+
